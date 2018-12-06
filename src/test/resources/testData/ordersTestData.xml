@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<product id="1001" uuid="1-0-0-1" name="Product 4" price="14.00"></product>
+	<product id="1002" uuid="1-0-0-2" name="Product 3" price="20.25"></product>
+	<product id="1003" uuid="1-0-0-3" name="Product 2" price="152.00"></product>
+	<product id="1004" uuid="1-0-0-4" name="Product 1" price="4.00"></product>
+	<orders id="1001" uuid="2-0-0-1" status="NEW" create_time="2018-12-01 11:09:37.000" buyer_email="xxx.xxx@gmail.com"></orders>
+	<orders id="1002" uuid="2-0-0-2" status="NEW" create_time="2018-12-05 16:56:37.000" buyer_email="xxx.xxx@gmail.com"></orders>
+	<orders id="1003" uuid="2-0-0-3" status="FINISHED" create_time="2018-12-10 06:37:17.000" buyer_email="yyy.yyy@gmail.com"></orders>
+	<order_product id="1001" amount="2" product_id="1001" order_id="1001" order_product_price="14.00"></order_product>
+	<order_product id="1002" amount="1" product_id="1002" order_id="1001" order_product_price="20.25"></order_product>
+	<order_product id="1003" amount="3" product_id="1003" order_id="1001" order_product_price="152.00"></order_product>
+	<order_product id="1004" amount="2" product_id="1001" order_id="1003" order_product_price="14.00"></order_product>
+	<order_product id="1005" amount="1" product_id="1002" order_id="1003" order_product_price="20.25"></order_product>
+	<order_product id="1006" amount="3" product_id="1003" order_id="1003" order_product_price="152.00"></order_product>
+</dataset>
