@@ -26,4 +26,4 @@ Test are covering many cases, and they are separated in multiple classes. H2 in 
 ### Application usage
 Application is used for adding new products to our DB. There are also services for updating product and getting the list of all products.
 Also, it is possible to place an order. When order is placed, it's initial state is NEW. As long order is in that status, changing the price of order products will also cause total order price change (when calling service for calculating total price). But when order changes status then prices are taken which were there at the time of order creation.
-There is aslo method which is used for getting all orders within some period of time.
+There is also method which is used for getting all orders within some period of time.
